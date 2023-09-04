@@ -1,2 +1,5 @@
 This is a practical remote repo crerated.
 Author: Mobin Mathew
+created date: 04/09/2023
+
+youtube: Git tutorial command-line fundamentals.
