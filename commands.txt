@@ -1,0 +1,51 @@
+Git commands:
+--------------
+git --version
+git config --help
+
+git config --global user.name "mobin"
+git config --global user.email "mobin.matthew@gmail.com"
+git config -l
+git config -l | grep 'user.name\|user.email'
+
+***
+#powershell command to create a new alias
+ps:>new-alias c
+value: c=clear-host
+
+ps:>get-alias
+
+#for gitbash we can use the linux based command
+$alias c=clear
+***
+
+#enetr to the project folder and type ls -la
+git init	#try again ls -la
+
+git status
+rm -rf .git	#try again "git status"
+
+
+vi .gitignore	//add the files that needs to be ignored. can use wild cards "*.py"
+git status
+
+Adding files to staging area:
+-----------------------------
+git add -A
+git add <specific file>
+git status
+
+git reset
+git reset <specific file>
+
+Commit: Anything to be committed must be part of staging 1st
+-------------------------------------------------------------
+git commit -m "message to be added"
+git status
+git log
+
+
+
+
+
+
